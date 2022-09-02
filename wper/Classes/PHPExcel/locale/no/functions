@@ -1,0 +1,368 @@
+ï»¿##
+## PHPExcel
+##
+## Copyright (c) 2006 - 2011 PHPExcel
+##
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+##
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+##
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+##
+## @category   PHPExcel
+## @package    PHPExcel_Calculation
+## @copyright  Copyright (c) 2006 - 2011 PHPExcel (http://www.codeplex.com/PHPExcel)
+## @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+## @version    ##VERSION##, ##DATE##
+##
+## Data in this file derived from http://www.piuha.fi/excel-function-name-translation/
+##
+##
+
+
+##
+##	Add-in and Automation functions				Funksjonene Tillegg og Automatisering
+##
+GETPIVOTDATA		= HENTPIVOTDATA				##	Returnerer data som er lagret i en pivottabellrapport
+
+
+##
+##	Cube functions						Kubefunksjoner
+##
+CUBEKPIMEMBER		= KUBEKPIMEDLEM				##	Returnerer navnet, egenskapen og mÃ¥let for en viktig ytelsesindikator (KPI), og viser navnet og egenskapen i cellen. En KPI er en mÃ¥lbar enhet, for eksempel mÃ¥nedlig bruttoinntjening eller kvartalsvis inntjening per ansatt, og brukes til Ã¥ overvÃ¥ke ytelsen i en organisasjon.
+CUBEMEMBER		= KUBEMEDLEM				##	Returnerer et medlem eller en tuppel i et kubehierarki. Brukes til Ã¥ validere at medlemmet eller tuppelen finnes i kuben.
+CUBEMEMBERPROPERTY	= KUBEMEDLEMEGENSKAP			##	Returnerer verdien til en medlemsegenskap i kuben. Brukes til Ã¥ validere at et medlemsnavn finnes i kuben, og til Ã¥ returnere den angitte egenskapen for dette medlemmet.
+CUBERANKEDMEMBER	= KUBERANGERTMEDLEM			##	Returnerer det n-te, eller rangerte, medlemmet i et sett. Brukes til Ã¥ returnere ett eller flere elementer i et sett, for eksempel de 10 beste studentene.
+CUBESET			= KUBESETT				##	Definerer et beregnet sett av medlemmer eller tuppeler ved Ã¥ sende et settuttrykk til kuben pÃ¥ serveren, noe som oppretter settet og deretter returnerer dette settet til Microsoft Office Excel.
+CUBESETCOUNT		= KUBESETTANTALL			##	Returnerer antallet elementer i et sett.
+CUBEVALUE		= KUBEVERDI				##	Returnerer en aggregert verdi fra en kube.
+
+
+##
+##	Database functions					Databasefunksjoner
+##
+DAVERAGE		= DGJENNOMSNITT				##	Returnerer gjennomsnittet av merkede databaseposter
+DCOUNT			= DANTALL				##	Teller celler som inneholder tall i en database
+DCOUNTA			= DANTALLA				##	Teller celler som ikke er tomme i en database
+DGET			= DHENT					##	Trekker ut fra en database en post som oppfyller angitte vilkÃ¥r
+DMAX			= DMAKS					##	Returnerer maksimumsverdien fra merkede databaseposter
+DMIN			= DMIN					##	Returnerer minimumsverdien fra merkede databaseposter
+DPRODUCT		= DPRODUKT				##	Multipliserer verdiene i et bestemt felt med poster som oppfyller vilkÃ¥rene i en database
+DSTDEV			= DSTDAV				##	Estimerer standardavviket basert pÃ¥ et utvalg av merkede databaseposter
+DSTDEVP			= DSTAVP				##	Beregner standardavviket basert pÃ¥ at merkede databaseposter utgjÃ¸r hele populasjonen
+DSUM			= DSUMMER				##	Legger til tallene i feltkolonnen med poster, i databasen som oppfyller vilkÃ¥rene
+DVAR			= DVARIANS				##	Estimerer variansen basert pÃ¥ et utvalg av merkede databaseposter
+DVARP			= DVARIANSP				##	Beregner variansen basert pÃ¥ at merkede databaseposter utgjÃ¸r hele populasjonen
+
+
+##
+##	Date and time functions					Dato- og tidsfunksjoner
+##
+DATE			= DATO					##	Returnerer serienummeret som svarer til en bestemt dato
+DATEVALUE		= DATOVERDI				##	Konverterer en dato med tekstformat til et serienummer
+DAY			= DAG					##	Konverterer et serienummer til en dag i mÃ¥neden
+DAYS360			= DAGER360				##	Beregner antall dager mellom to datoer basert pÃ¥ et Ã¥r med 360 dager
+EDATE			= DAG.ETTER				##	Returnerer serienummeret som svarer til datoen som er det indikerte antall mÃ¥neder fÃ¸r eller etter startdatoen
+EOMONTH			= MÃ…NEDSSLUTT				##	Returnerer serienummeret som svarer til siste dag i mÃ¥neden, fÃ¸r eller etter et angitt antall mÃ¥neder
+HOUR			= TIME					##	Konverterer et serienummer til en time
+MINUTE			= MINUTT				##	Konverterer et serienummer til et minutt
+MONTH			= MÃ…NED					##	Konverterer et serienummer til en mÃ¥ned
+NETWORKDAYS		= NETT.ARBEIDSDAGER			##	Returnerer antall hele arbeidsdager mellom to datoer
+NOW			= NÃ…					##	Returnerer serienummeret som svarer til gjeldende dato og klokkeslett
+SECOND			= SEKUND				##	Konverterer et serienummer til et sekund
+TIME			= TID					##	Returnerer serienummeret som svarer til et bestemt klokkeslett
+TIMEVALUE		= TIDSVERDI				##	Konverterer et klokkeslett i tekstformat til et serienummer
+TODAY			= IDAG					##	Returnerer serienummeret som svarer til dagens dato
+WEEKDAY			= UKEDAG				##	Konverterer et serienummer til en ukedag
+WEEKNUM			= UKENR					##	Konverterer et serienummer til et tall som representerer hvilket nummer uken har i et Ã¥r
+WORKDAY			= ARBEIDSDAG				##	Returnerer serienummeret som svarer til datoen fÃ¸r eller etter et angitt antall arbeidsdager
+YEAR			= Ã…R					##	Konverterer et serienummer til et Ã¥r
+YEARFRAC		= Ã…RDEL					##	Returnerer brÃ¸kdelen for Ã¥ret, som svarer til antall hele dager mellom startdato og sluttdato
+
+
+##
+##	Engineering functions					Tekniske funksjoner
+##
+BESSELI			= BESSELI				##	Returnerer den endrede Bessel-funksjonen In(x)
+BESSELJ			= BESSELJ				##	Returnerer Bessel-funksjonen Jn(x)
+BESSELK			= BESSELK				##	Returnerer den endrede Bessel-funksjonen Kn(x)
+BESSELY			= BESSELY				##	Returnerer Bessel-funksjonen Yn(x)
+BIN2DEC			= BINTILDES				##	Konverterer et binÃ¦rt tall til et desimaltall
+BIN2HEX			= BINTILHEKS				##	Konverterer et binÃ¦rt tall til et heksadesimaltall
+BIN2OCT			= BINTILOKT				##	Konverterer et binÃ¦rt tall til et oktaltall
+COMPLEX			= KOMPLEKS				##	Konverterer reelle og imaginÃ¦re koeffisienter til et komplekst tall
+CONVERT			= KONVERTER				##	Konverterer et tall fra ett mÃ¥lsystem til et annet
+DEC2BIN			= DESTILBIN				##	Konverterer et desimaltall til et binÃ¦rtall
+DEC2HEX			= DESTILHEKS				##	Konverterer et heltall i 10-tallsystemet til et heksadesimalt tall
+DEC2OCT			= DESTILOKT				##	Konverterer et heltall i 10-tallsystemet til et oktaltall
+DELTA			= DELTA					##	UndersÃ¸ker om to verdier er like
+ERF			= FEILF					##	Returnerer feilfunksjonen
+ERFC			= FEILFK				##	Returnerer den komplementÃ¦re feilfunksjonen
+GESTEP			= GRENSEVERDI				##	Tester om et tall er stÃ¸rre enn en terskelverdi
+HEX2BIN			= HEKSTILBIN				##	Konverterer et heksadesimaltall til et binÃ¦rt tall
+HEX2DEC			= HEKSTILDES				##	Konverterer et heksadesimalt tall til et heltall i 10-tallsystemet
+HEX2OCT			= HEKSTILOKT				##	Konverterer et heksadesimalt tall til et oktaltall
+IMABS			= IMABS					##	Returnerer absoluttverdien (koeffisienten) til et komplekst tall
+IMAGINARY		= IMAGINÃ†R				##	Returnerer den imaginÃ¦re koeffisienten til et komplekst tall
+IMARGUMENT		= IMARGUMENT				##	Returnerer argumentet theta, som er en vinkel uttrykt i radianer
+IMCONJUGATE		= IMKONJUGERT				##	Returnerer den komplekse konjugaten til et komplekst tall
+IMCOS			= IMCOS					##	Returnerer cosinus til et komplekst tall
+IMDIV			= IMDIV					##	Returnerer kvotienten til to komplekse tall
+IMEXP			= IMEKSP				##	Returnerer eksponenten til et komplekst tall
+IMLN			= IMLN					##	Returnerer den naturlige logaritmen for et komplekst tall
+IMLOG10			= IMLOG10				##	Returnerer logaritmen med grunntall 10 for et komplekst tall
+IMLOG2			= IMLOG2				##	Returnerer logaritmen med grunntall 2 for et komplekst tall
+IMPOWER			= IMOPPHÃ˜Y				##	Returnerer et komplekst tall opphÃ¸yd til en heltallspotens
+IMPRODUCT		= IMPRODUKT				##	Returnerer produktet av komplekse tall
+IMREAL			= IMREELL				##	Returnerer den reelle koeffisienten til et komplekst tall
+IMSIN			= IMSIN					##	Returnerer sinus til et komplekst tall
+IMSQRT			= IMROT					##	Returnerer kvadratroten av et komplekst tall
+IMSUB			= IMSUB					##	Returnerer differansen mellom to komplekse tall
+IMSUM			= IMSUMMER				##	Returnerer summen av komplekse tall
+OCT2BIN			= OKTTILBIN				##	Konverterer et oktaltall til et binÃ¦rt tall
+OCT2DEC			= OKTTILDES				##	Konverterer et oktaltall til et desimaltall
+OCT2HEX			= OKTTILHEKS				##	Konverterer et oktaltall til et heksadesimaltall
+
+
+##
+##	Financial functions					Ã˜konomiske funksjoner
+##
+ACCRINT			= PÃ…LÃ˜PT.PERIODISK.RENTE		##	Returnerer pÃ¥lÃ¸pte renter for et verdipapir som betaler periodisk rente
+ACCRINTM		= PÃ…LÃ˜PT.FORFALLSRENTE			##	Returnerer den pÃ¥lÃ¸pte renten for et verdipapir som betaler rente ved forfall
+AMORDEGRC		= AMORDEGRC				##	Returnerer avskrivningen for hver regnskapsperiode ved hjelp av en avskrivingskoeffisient
+AMORLINC		= AMORLINC				##	Returnerer avskrivingen for hver regnskapsperiode
+COUPDAYBS		= OBLIG.DAGER.FF			##	Returnerer antall dager fra begynnelsen av den rentebÃ¦rende perioden til innlÃ¸sningsdatoen
+COUPDAYS		= OBLIG.DAGER				##	Returnerer antall dager i den rentebÃ¦rende perioden som inneholder innlÃ¸sningsdatoen
+COUPDAYSNC		= OBLIG.DAGER.NF			##	Returnerer antall dager fra betalingsdato til neste renteinnbetalingsdato
+COUPNCD			= OBLIG.DAGER.EF			##	Returnerer obligasjonsdatoen som kommer etter oppgjÃ¸rsdatoen
+COUPNUM			= OBLIG.ANTALL				##	Returnerer antall obligasjoner som skal betales mellom oppgjÃ¸rsdatoen og forfallsdatoen
+COUPPCD			= OBLIG.DAG.FORRIGE			##	Returnerer obligasjonsdatoen som kommer fÃ¸r oppgjÃ¸rsdatoen
+CUMIPMT			= SAMLET.RENTE				##	Returnerer den kumulative renten som er betalt mellom to perioder
+CUMPRINC		= SAMLET.HOVEDSTOL			##	Returnerer den kumulative hovedstolen som er betalt for et lÃ¥n mellom to perioder
+DB			= DAVSKR				##	Returnerer avskrivningen for et aktivum i en angitt periode, foretatt med fast degressiv avskrivning
+DDB			= DEGRAVS				##	Returnerer avskrivningen for et aktivum for en gitt periode, ved hjelp av dobbel degressiv avskrivning eller en metode som du selv angir
+DISC			= DISKONTERT				##	Returnerer diskonteringsraten for et verdipapir
+DOLLARDE		= DOLLARDE				##	Konverterer en valutapris uttrykt som en brÃ¸k, til en valutapris uttrykt som et desimaltall
+DOLLARFR		= DOLLARBR				##	Konverterer en valutapris uttrykt som et desimaltall, til en valutapris uttrykt som en brÃ¸k
+DURATION		= VARIGHET				##	Returnerer Ã¥rlig varighet for et verdipapir med renter som betales periodisk
+EFFECT			= EFFEKTIV.RENTE			##	Returnerer den effektive Ã¥rlige rentesatsen
+FV			= SLUTTVERDI				##	Returnerer fremtidig verdi for en investering
+FVSCHEDULE		= SVPLAN				##	Returnerer den fremtidige verdien av en inngÃ¥ende hovedstol etter Ã¥ ha anvendt en serie med sammensatte rentesatser
+INTRATE			= RENTESATS				##	Returnerer rentefoten av et fullfinansiert verdipapir
+IPMT			= RAVDRAG				##	Returnerer betalte renter pÃ¥ en investering for en gitt periode
+IRR			= IR					##	Returnerer internrenten for en serie kontantstrÃ¸mmer
+ISPMT			= ER.AVDRAG				##	Beregner renten som er betalt for en investering i lÃ¸pet av en bestemt periode
+MDURATION		= MVARIGHET				##	Returnerer Macauleys modifiserte varighet for et verdipapir med en antatt pÃ¥lydende verdi pÃ¥ kr 100,00
+MIRR			= MODIR					##	Returnerer internrenten der positive og negative kontantstrÃ¸mmer finansieres med forskjellige satser
+NOMINAL			= NOMINELL				##	Returnerer Ã¥rlig nominell rentesats
+NPER			= PERIODER				##	Returnerer antall perioder for en investering
+NPV			= NNV					##	Returnerer netto nÃ¥verdi for en investering, basert pÃ¥ en serie periodiske kontantstrÃ¸mmer og en rentesats
+ODDFPRICE		= AVVIKFP.PRIS				##	Returnerer pris pÃ¥lydende kr 100 for et verdipapir med en odde fÃ¸rste periode
+ODDFYIELD		= AVVIKFP.AVKASTNING			##	Returnerer avkastingen for et verdipapir med en odde fÃ¸rste periode
+ODDLPRICE		= AVVIKSP.PRIS				##	Returnerer pris pÃ¥lydende kr 100 for et verdipapir med en odde siste periode
+ODDLYIELD		= AVVIKSP.AVKASTNING			##	Returnerer avkastingen for et verdipapir med en odde siste periode
+PMT			= AVDRAG				##	Returnerer periodisk betaling for en annuitet
+PPMT			= AMORT					##	Returnerer betalingen pÃ¥ hovedstolen for en investering i en gitt periode
+PRICE			= PRIS					##	Returnerer prisen per pÃ¥lydende kr 100 for et verdipapir som gir periodisk avkastning
+PRICEDISC		= PRIS.DISKONTERT			##	Returnerer prisen per pÃ¥lydende kr 100 for et diskontert verdipapir
+PRICEMAT		= PRIS.FORFALL				##	Returnerer prisen per pÃ¥lydende kr 100 av et verdipapir som betaler rente ved forfall
+PV			= NÃ…VERDI				##	Returnerer nÃ¥verdien av en investering
+RATE			= RENTE					##	Returnerer rentesatsen per periode for en annuitet
+RECEIVED		= MOTTATT.AVKAST			##	Returnerer summen som mottas ved forfallsdato for et fullinvestert verdipapir
+SLN			= LINAVS				##	Returnerer den lineÃ¦re avskrivningen for et aktivum i Ã©n periode
+SYD			= Ã…RSAVS				##	Returnerer Ã¥rsavskrivningen for et aktivum i en angitt periode
+TBILLEQ			= TBILLEKV				##	Returnerer den obligasjonsekvivalente avkastningen for en statsobligasjon
+TBILLPRICE		= TBILLPRIS				##	Returnerer prisen per pÃ¥lydende kr 100 for en statsobligasjon
+TBILLYIELD		= TBILLAVKASTNING			##	Returnerer avkastningen til en statsobligasjon
+VDB			= VERDIAVS				##	Returnerer avskrivningen for et aktivum i en angitt periode eller delperiode, ved hjelp av degressiv avskrivning
+XIRR			= XIR					##	Returnerer internrenten for en serie kontantstrÃ¸mmer som ikke nÃ¸dvendigvis er periodiske
+XNPV			= XNNV					##	Returnerer netto nÃ¥verdi for en serie kontantstrÃ¸mmer som ikke nÃ¸dvendigvis er periodiske
+YIELD			= AVKAST				##	Returnerer avkastningen pÃ¥ et verdipapir som betaler periodisk rente
+YIELDDISC		= AVKAST.DISKONTERT			##	Returnerer Ã¥rlig avkastning for et diskontert verdipapir, for eksempel en statskasseveksel
+YIELDMAT		= AVKAST.FORFALL			##	Returnerer den Ã¥rlige avkastningen for et verdipapir som betaler rente ved forfallsdato
+
+
+##
+##	Information functions					Informasjonsfunksjoner
+##
+CELL			= CELLE					##	Returnerer informasjon om formatering, plassering eller innholdet til en celle
+ERROR.TYPE		= FEIL.TYPE				##	Returnerer et tall som svarer til en feiltype
+INFO			= INFO					##	Returnerer informasjon om gjeldende operativmiljÃ¸
+ISBLANK			= ERTOM					##	Returnerer SANN hvis verdien er tom
+ISERR			= ERFEIL				##	Returnerer SANN hvis verdien er en hvilken som helst annen feilverdi enn #I/T
+ISERROR			= ERFEIL				##	Returnerer SANN hvis verdien er en hvilken som helst feilverdi
+ISEVEN			= ERPARTALL				##	Returnerer SANN hvis tallet er et partall
+ISLOGICAL		= ERLOGISK				##	Returnerer SANN hvis verdien er en logisk verdi
+ISNA			= ERIT					##	Returnerer SANN hvis verdien er feilverdien #I/T
+ISNONTEXT		= ERIKKETEKST				##	Returnerer SANN hvis verdien ikke er tekst
+ISNUMBER		= ERTALL				##	Returnerer SANN hvis verdien er et tall
+ISODD			= ERODDETALL				##	Returnerer SANN hvis tallet er et oddetall
+ISREF			= ERREF					##	Returnerer SANN hvis verdien er en referanse
+ISTEXT			= ERTEKST				##	Returnerer SANN hvis verdien er tekst
+N			= N					##	Returnerer en verdi som er konvertert til et tall
+NA			= IT					##	Returnerer feilverdien #I/T
+TYPE			= VERDITYPE				##	Returnerer et tall som indikerer datatypen til en verdi
+
+
+##
+##	Logical functions					Logiske funksjoner
+##
+AND			= OG					##	Returnerer SANN hvis alle argumentene er lik SANN
+FALSE			= USANN					##	Returnerer den logiske verdien USANN
+IF			= HVIS					##	Angir en logisk test som skal utfÃ¸res
+IFERROR			= HVISFEIL				##	Returnerer en verdi du angir hvis en formel evaluerer til en feil. Ellers returnerer den resultatet av formelen.
+NOT			= IKKE					##	Reverserer logikken til argumentet
+OR			= ELLER					##	Returnerer SANN hvis ett eller flere argumenter er lik SANN
+TRUE			= SANN					##	Returnerer den logiske verdien SANN
+
+
+##
+##	Lookup and reference functions				Oppslag- og referansefunksjoner
+##
+ADDRESS			= ADRESSE				##	Returnerer en referanse som tekst til en enkelt celle i et regneark
+AREAS			= OMRÃ…DER				##	Returnerer antall omrÃ¥der i en referanse
+CHOOSE			= VELG					##	Velger en verdi fra en liste med verdier
+COLUMN			= KOLONNE				##	Returnerer kolonnenummeret for en referanse
+COLUMNS			= KOLONNER				##	Returnerer antall kolonner i en referanse
+HLOOKUP			= FINN.KOLONNE				##	Leter i den Ã¸verste raden i en matrise og returnerer verdien for den angitte cellen
+HYPERLINK		= HYPERKOBLING				##	Oppretter en snarvei eller et hopp som Ã¥pner et dokument som er lagret pÃ¥ en nettverksserver, et intranett eller Internett
+INDEX			= INDEKS				##	Bruker en indeks til Ã¥ velge en verdi fra en referanse eller matrise
+INDIRECT		= INDIREKTE				##	Returnerer en referanse angitt av en tekstverdi
+LOOKUP			= SLÃ….OPP				##	SlÃ¥r opp verdier i en vektor eller matrise
+MATCH			= SAMMENLIGNE				##	SlÃ¥r opp verdier i en referanse eller matrise
+OFFSET			= FORSKYVNING				##	Returnerer en referanseforskyvning fra en gitt referanse
+ROW			= RAD					##	Returnerer radnummeret for en referanse
+ROWS			= RADER					##	Returnerer antall rader i en referanse
+RTD			= RTD					##	Henter sanntidsdata fra et program som stÃ¸tter COM-automatisering (automatisering: En mÃ¥te Ã¥ arbeide pÃ¥ med programobjekter fra et annet program- eller utviklingsverktÃ¸y. Tidligere kalt OLE-automatisering. Automatisering er en bransjestandard og en funksjon i Component Object Model (COM).)
+TRANSPOSE		= TRANSPONER				##	Returnerer transponeringen av en matrise
+VLOOKUP			= FINN.RAD				##	Leter i den fÃ¸rste kolonnen i en matrise og flytter bortover raden for Ã¥ returnere verdien til en celle
+
+
+##
+##	Math and trigonometry functions				Matematikk- og trigonometrifunksjoner
+##
+ABS			= ABS					##	Returnerer absoluttverdien til et tall
+ACOS			= ARCCOS				##	Returnerer arcus cosinus til et tall
+ACOSH			= ARCCOSH				##	Returnerer den inverse hyperbolske cosinus til et tall
+ASIN			= ARCSIN				##	Returnerer arcus sinus til et tall
+ASINH			= ARCSINH				##	Returnerer den inverse hyperbolske sinus til et tall
+ATAN			= ARCTAN				##	Returnerer arcus tangens til et tall
+ATAN2			= ARCTAN2				##	Returnerer arcus tangens fra x- og y-koordinater
+ATANH			= ARCTANH				##	Returnerer den inverse hyperbolske tangens til et tall
+CEILING			= AVRUND.GJELDENDE.MULTIPLUM		##	Runder av et tall til nÃ¦rmeste heltall eller til nÃ¦rmeste signifikante multiplum
+COMBIN			= KOMBINASJON				##	Returnerer antall kombinasjoner for ett gitt antall objekter
+COS			= COS					##	Returnerer cosinus til et tall
+COSH			= COSH					##	Returnerer den hyperbolske cosinus til et tall
+DEGREES			= GRADER				##	Konverterer radianer til grader
+EVEN			= AVRUND.TIL.PARTALL			##	Runder av et tall oppover til nÃ¦rmeste heltall som er et partall
+EXP			= EKSP					##	Returnerer e opphÃ¸yd i en angitt potens
+FACT			= FAKULTET				##	Returnerer fakultet til et tall
+FACTDOUBLE		= DOBBELFAKT				##	Returnerer et talls doble fakultet
+FLOOR			= AVRUND.GJELDENDE.MULTIPLUM.NED	##	Avrunder et tall nedover, mot null
+GCD			= SFF					##	Returnerer hÃ¸yeste felles divisor
+INT			= HELTALL				##	Avrunder et tall nedover til nÃ¦rmeste heltall
+LCM			= MFM					##	Returnerer minste felles multiplum
+LN			= LN					##	Returnerer den naturlige logaritmen til et tall
+LOG			= LOG					##	Returnerer logaritmen for et tall til et angitt grunntall
+LOG10			= LOG10					##	Returnerer logaritmen med grunntall 10 for et tall
+MDETERM			= MDETERM				##	Returnerer matrisedeterminanten til en matrise
+MINVERSE		= MINVERS				##	Returnerer den inverse matrisen til en matrise
+MMULT			= MMULT					##	Returnerer matriseproduktet av to matriser
+MOD			= REST					##	Returnerer resten fra en divisjon
+MROUND			= MRUND					##	Returnerer et tall avrundet til det Ã¸nskede multiplum
+MULTINOMIAL		= MULTINOMINELL				##	Returnerer det multinominelle for et sett med tall
+ODD			= AVRUND.TIL.ODDETALL			##	Runder av et tall oppover til nÃ¦rmeste heltall som er et oddetall
+PI			= PI					##	Returnerer verdien av pi
+POWER			= OPPHÃ˜YD.I				##	Returnerer resultatet av et tall opphÃ¸yd i en potens
+PRODUCT			= PRODUKT				##	Multipliserer argumentene
+QUOTIENT		= KVOTIENT				##	Returnerer heltallsdelen av en divisjon
+RADIANS			= RADIANER				##	Konverterer grader til radianer
+RAND			= TILFELDIG				##	Returnerer et tilfeldig tall mellom 0 og 1
+RANDBETWEEN		= TILFELDIGMELLOM			##	Returnerer et tilfeldig tall innenfor et angitt omrÃ¥de
+ROMAN			= ROMERTALL				##	Konverterer vanlige tall til romertall, som tekst
+ROUND			= AVRUND				##	Avrunder et tall til et angitt antall sifre
+ROUNDDOWN		= AVRUND.NED				##	Avrunder et tall nedover, mot null
+ROUNDUP			= AVRUND.OPP				##	Runder av et tall oppover, bort fra null
+SERIESSUM		= SUMMER.REKKE				##	Returnerer summen av en geometrisk rekke, basert pÃ¥ formelen
+SIGN			= FORTEGN				##	Returnerer fortegnet for et tall
+SIN			= SIN					##	Returnerer sinus til en gitt vinkel
+SINH			= SINH					##	Returnerer den hyperbolske sinus til et tall
+SQRT			= ROT					##	Returnerer en positiv kvadratrot
+SQRTPI			= ROTPI					##	Returnerer kvadratroten av (tall * pi)
+SUBTOTAL		= DELSUM				##	Returnerer en delsum i en liste eller database
+SUM			= SUMMER				##	Legger sammen argumentene
+SUMIF			= SUMMERHVIS				##	Legger sammen cellene angitt ved et gitt vilkÃ¥r
+SUMIFS			= SUMMER.HVIS.SETT			##	Legger sammen cellene i et omrÃ¥de som oppfyller flere vilkÃ¥r
+SUMPRODUCT		= SUMMERPRODUKT				##	Returnerer summen av produktene av tilsvarende matrisekomponenter
+SUMSQ			= SUMMERKVADRAT				##	Returnerer kvadratsummen av argumentene
+SUMX2MY2		= SUMMERX2MY2				##	Returnerer summen av differansen av kvadratene for tilsvarende verdier i to matriser
+SUMX2PY2		= SUMMERX2PY2				##	Returnerer summen av kvadratsummene for tilsvarende verdier i to matriser
+SUMXMY2			= SUMMERXMY2				##	Returnerer summen av kvadratene av differansen for tilsvarende verdier i to matriser
+TAN			= TAN					##	Returnerer tangens for et tall
+TANH			= TANH					##	Returnerer den hyperbolske tangens for et tall
+TRUNC			= AVKORT				##	Korter av et tall til et heltall
+
+
+##
+##	Statistical functions					Statistiske funksjoner
+##
+AVEDEV			= GJENNOMSNITTSAVVIK			##	Returnerer datapunktenes gjennomsnittlige absoluttavvik fra middelverdien
+AVERAGE			= GJENNOMSNITT				##	Returnerer gjennomsnittet for argumentene
+AVERAGEA		= GJENNOMSNITTA				##	Returnerer gjennomsnittet for argumentene, inkludert tall, tekst og logiske verdier
+AVERAGEIF		= GJENNOMSNITTHVIS			##	Returnerer gjennomsnittet (aritmetisk gjennomsnitt) av alle cellene i et omrÃ¥de som oppfyller et bestemt vilkÃ¥r
+AVERAGEIFS		= GJENNOMSNITT.HVIS.SETT		##	Returnerer gjennomsnittet (aritmetisk middelverdi) av alle celler som oppfyller flere vilkÃ¥r.
+BETADIST		= BETA.FORDELING			##	Returnerer den kumulative betafordelingsfunksjonen
+BETAINV			= INVERS.BETA.FORDELING			##	Returnerer den inverse verdien til fordelingsfunksjonen for en angitt betafordeling
+BINOMDIST		= BINOM.FORDELING			##	Returnerer den individuelle binomiske sannsynlighetsfordelingen
+CHIDIST			= KJI.FORDELING				##	Returnerer den ensidige sannsynligheten for en kjikvadrert fordeling
+CHIINV			= INVERS.KJI.FORDELING			##	Returnerer den inverse av den ensidige sannsynligheten for den kjikvadrerte fordelingen
+CHITEST			= KJI.TEST				##	UtfÃ¸rer testen for uavhengighet
+CONFIDENCE		= KONFIDENS				##	Returnerer konfidensintervallet til gjennomsnittet for en populasjon
+CORREL			= KORRELASJON				##	Returnerer korrelasjonskoeffisienten mellom to datasett
+COUNT			= ANTALL				##	Teller hvor mange tall som er i argumentlisten
+COUNTA			= ANTALLA				##	Teller hvor mange verdier som er i argumentlisten
+COUNTBLANK		= TELLBLANKE				##	Teller antall tomme celler i et omrÃ¥de.
+COUNTIF			= ANTALL.HVIS				##	Teller antall celler i et omrÃ¥de som oppfyller gitte vilkÃ¥r
+COUNTIFS		= ANTALL.HVIS.SETT			##	Teller antallet ikke-tomme celler i et omrÃ¥de som oppfyller flere vilkÃ¥r
+COVAR			= KOVARIANS				##	Returnerer kovariansen, gjennomsnittet av produktene av parvise avvik
+CRITBINOM		= GRENSE.BINOM				##	Returnerer den minste verdien der den kumulative binomizá7_+ç9–iA6"®(×—Äfá`~fm!sf	‡Ëä)øi&q ay¢*n¯pmcºp*w½æÖ{MXÄÖ«g:ƒ÷WOjvw›|3ÞvlˆLJ‚"I
+,}Eò«=÷Ôb#ÁOÅ>@ÈÚŒ¦[)pvâ‚æõ(ÐF}mhD™ÙAZ†ß¾[P'y¨qëˆUFfßj¤óLÎNÃN8'/1Dæ#A2nG“ìå×¡7\)pd¨ó·-[sC/f#b¡ÜlM ËîUÑ„6\ôe|ÕAq×L‹’»
+.ÆSCxSô¡:çA®("aqÄqqwrG­ÐvyiÔê&çYsF"n._™To^°149lôpÁ@Í¬NÎ¨(H†Á+£Ã©ÅW_sûëYn"Q%kâñqÝ²ÉømU&@H|ª»i®OaélrKzefÏ,cKþºmràSÁé†ýâUG:Ëâ
+A<45vÂdÒÊ(­/#+vùdtº§c4«©÷¨¡’>Ôbe*ä.­AèC$5o<FÆ*ßmÛ@¼:~NSÊy`e.ÅzL
+/c_Ë“#jKõ8h9r¸‘}v9æFÊ€à)†rísbòçDb/wÓj|pMæ+'.,¶z;fK¥~Ò 1kÁ0 ¼	IRÊHÆHE"Èˆ¾ˆAnq]>'tàmè(&zOoSÀ}‘" c>N£¦!~a‘h‰3E¤ó ÇDBÒu$°Ö!,›-}¦ËîN]@“ä£¡J,W·BäC<g ”-Þ jŸå¶§ì¼b¤}ð áÎIKni÷wpxMP²òA—ù6ðu™j?v»Ô\2óc…/
+‰]´ÕLE }¤{+mòÍòSjd@Uð4Ç.µú·$u¼“›/(·Rkáõ_L‹œç÷»P&{×\ˆ#öÅG‰ØËÎYI…D¼žï‰=Y#Y§Šdgæ2þSžGr0üC/~oå’tOünGø4ÎÎÑÝáçæÈÑ†ÆTÅŸ×S[t:RµI:(Iaöÿ¹úFjáuPÍmçÞQuçxÎj:•DCµ&Ð¬ç¦ôÇ>$©~Ù¼*bNVÍD¬Si-aqHL¤ÍKÔ­kùAîP~ˆéÎsiÊ7Cåa…Zeù,}Nv ¤sxE	W<®ÂI+¥ëDeÙŸ¤ô B×Ami}¦¤ÚwSü†(=ð–(}HªcgC”uÉ‘¹“6s[E|Á8OuÈˆÔBNI-yIxÿÕ|¿~Y7n!t&å@iq3:í'0l~ÌHõyiƒé@9Ígø­ït­åNáíIh+žWß"RÂ«dE\MË‰Ha|Éûò(6ÃyÈSrCL¢lDöbÒÙ^àŠatçUãÏ­ç{R°Í¦u|mT'ì}Z..ô$Lï6JVüíÛIˆ…„ÐzøÍRÏÉ6Ô “ŽtM‘–[à©EŸäÑ0ŒúþU`7s ¦m­]§%oÓÒõÇ+ÌÍ½Ýk÷yäü†jÛaÌF TÜŸÙËmPB”HRéÏ@ÇB^¤îTL
+…C°Ùh·ô¯râ`,l:$éæùêJÖa¢7—a-'6–Mšº¦p¯kBuÌÀ)XEAš¡ ã*þdC{ ôÀ³½œIú²d‰ULßCPUœY@JIãùé,efÒ|iQPW:ÑM2Á8GÏ£K’´?+wwu¶ÉÄ¢FG‹ÄPâk+A³øÛªj`qÕR5l¾Û€ÐäŽ´êÍYæ—ýrø¥(£ÃÓùË©efÂ}P#w,Î¥vAIåtGWä-Òky.4ÄH]sAmqe$<©ÒÊUÉ[‹!X`Î8…L‹UÖß´¨3Zp¯ FáVê}"t™ VÇÿ’®Lå7ãPQxås&ë)rd…5Â,Séÿ:î@}bˆDví¦õùàdTDHm=dòÔ6ÌWHü¦Kó	`#h4S#4%´z6e1È9%´†^`º}niÀÏˆpøž¬¢: {*DÃ	E¿ÏOAòç Ð»3níKöŽ“ îC¨E\4 þû;EðY‰:kdIgÉî¬Xý…À„x+(_°HÕ=ëlÑxÄCt0ôCÀ4]’”œX/¼íêóŽÁG3	rM¡»2epuwèè`çßa^%º9i*‘ˆ?D¿È¿ò¶7syõ‹¤¢ÆÈ²=O`iŒO!ou.Hó]'6\Qoä•Áº¤—{Ïïr}‚L~¦9KÍ7Çt3”¢ãyfM2~0L³mvÅÏå)|ç$lgõ§Vl<ÞÉ%ë-ðÅ®±|a_å¿!GMO/ï";ã¨
+­ûyÏîèà%z’t–Ãïÿqv:,7Âk«ÝR1Gô¢ìm^ñ­´e*hrmQ SYïG¾é	qû18-)©Z÷ÑXFJ#Iš†'©zgr‚3@ nüùœçó•n¥bwk5Ëò{¨QPfQªQ®y=Å6M
+Hªñ/käa>U.FTyL0ïãé$`n{°,[ÇwQnrî§thkõã“†Md6Bé†@˜‹=1õ„Ló/Ñû¢Ùnzøµj2ôbhÏ b`gokN Ü y”ãlÐ3'äsÏ C~ùoÎÀê”ØV<¯˜fI…DÉˆ83ZQ`y{qäU^vo çá¬‘EQ‡îÁí£ýÃ4*éDûæ{“cÕuåcL®ð\¨MŠ‹´\ˆH½RnÔùÛ’‘1† auª$doÿ0mˆ'O,=iC3{2,eCfˆI/a£!uu`p?sæ'#^[Z3ol_¥¡c¯,58ÓyºÓos88©øà$ßöF1È­iy>h9W'^ õp¥ážƒÏÎ•IX©¸	Š‡q³4Óm9@ë€PÁtarÍõF¥ Tg,BJOo(›5}lá_rë9²
+0ÅDUÔ[È&çAi­/R9×ÝeÉùÙÞÅ!¹x2ÀdTSa2WY¢Œ#ö4rª¨®w(ˆkXŸ…f—5x~GÍo(4e?D„M3@'äÇvãcñ½UBbs*¬jùe7 ¡Ê%iåšØM;íáÚÑE¦ó‡oWNë
+Ì	{…AÚX	‹H##Âü„®úG$\ÖâÔy ;¾„ý¢î@{R¡4+r:gê^²U$åX£m¿m@F|h})Oy ‚­þà2	-kj+Ôä õÊâEvÐæÉ
+.Jà\&ÓóuÜƒÓÍ1hþMoáÀjB¸È¼ú~qell™nyhï:@RÄM'Oi"`Po‹
+#œ{lILÅUÊÜã‰·p°û/t@~öt lÄ{wˆš“ýæÌu!&&ÍZ“ì	M,f+hÜ£ÇPD2,	ý÷r‹¡nºr%å,–O’GÕ8ù~%P_H»t.wÂr_"ð*Ôtn`!:lvM)$%l0 üeeo"oPl_äÒ3AöeªpòïÐðÉë‚¶¼oeu`Âw+R|‰ÿÑ~õd/n"ë5IUM.9Á×°fÖÊ^æšOl¾&‚^i«‡öm&nçÿ¶Äq@ýYr9û>ök-èWim' ãþ¶nï`‰fÞ'¡ÕŠrñN)ÇãíÈxšSÒzBM_`8S8«ï|B“ß$_Þ@vÂ[ÒËÝý}qùjõ4a`-‡ß~%ît&*åÕG4¤jïyTX[´2ãeèêe1U J @"óÜ™GÑ<ôcgò©LXSeZ3Ï½Õ B‘UCWäŽÁ#« ø"c3og"ÝN•|æJk—ä°ókH£±Æ©%|ò*3)d¿_™Tb\ÝÐB<	]5­ôº’eÕOâT÷à\µ-¡¬Ì×NÝÕ×§ÓËMÙme‡³a1öf"cpH0$±ç&]ïðÐ÷ýtTah­Ô½ eäÆªôœÁ°@ô=!Tå¤dOäçâòµóv¯…{‡Y#°®ÿ_x‰ì“‹‘Qoü,"-#ó'â@®‘0ì4_!OAIr‰##Ý«S%s¢mów¬ï';mCÆf›]Ñ¼x;`õhØ;P‘³¼áñçm#jNQê#PHÈ×ü _~*V)Ò"fVfrYkÊí4Vz!FÂ2ëî@¢peÜHÄ¶µr];KbÇt@.sró•'Ü&|gãõÂq-mŒo1^Ãr|p?el9Aº¤KƒF•™l(	S0cfil:©ö‰ ¡óèÇ§Kì¨.¢«öX†”(ÌQ6bÚ)Â»¥W0 =e&cŒŽ:¨'“	hƒ“jÎ¦uwëÉ›TscýŠåvðe„éø§×g4sçGqaeUAl¨EØD0qO.jðüOÝtjë~6›/ O¡Žìäß¢j):€iâuX%Ò{nKCžJÓib‹\tÓë”áŽOM6ç*?·Qmõ«ä°#v4Qu'œAyX]ð‡hs¬Å°ó0u}ýE”’ö§GxV$un/F9aêyî4p%Lû~Ú„léÓ¸2–ÐÈ+K)ü)ReK[þH.™9P]¨AMë•Æ‚í”Ä–P ±L#§}ËëµZgT:¿Æw@Ø,ßiqdd³ËÐó:]"v’,ìu  r,“LŒÂ@ [TGzdöÆWsÈéq)'ja@sòxq: ø›ìé0,e×ï=eúõŒiglM²·'ˆvHt¹Ž¡1dØSuîíqMwtãlA,%
+qCLS*	¡<¡^ãBEô?EÃ,àÁÀuðlÕ2AzRp@ÿú¿‹ÎîÅŒ°Ìýí´fìÇTáåÏ£á•™5-pT^èá¤®V$øS_ÖêÐ_üEÖO"Lï+EXY¥Ô¹#–ð1xee5vêtvmç¨˜êÑ3~úlq?¶ =tö[ÐŽSÊN%åÞhIúÉÉ4C7…óŒ¹²1Æ;{¹óo$ wÀQ~Åq&uv}7>à¯<Ž~°#7-ç?¨Ù¢ÐÕøXQFKŸÔßÈÀKªžiHÔ^r¯×YoÆçQÔ¨"¤Ê0´D€qe½2ÿ¦qò$E~ÍáS9º¦bõcÍDi*B`‰&â8¥cè%O‰«r<FDqÿÎU¸}(ÿ,4×/Éaîv¡EaËB(jùjdzRét&2+*…=k°ÄVº	Kíe ÃŠ‡„Ð„‰ÏÌ±g,ÚEzIÃ>·¡§WÎ‰±zQcæ
+Â{¨ÀdæbpAcÎ»ìþïå±ãâÀ¸È;Q(f'zÉ‰Õì`æwC¹ HLJÎ*Åe{ämÿ*w
+ªW`]v~ñ™&f*bÏptdvG&gÇñU2QPhîgše7k¶ÊóGr;çï¾in=ÚMr³¡z¡vaî6Õuca'ei«Ò?gnØOb$ ãÇôç Š?\A6 ¹y¤^L,Êd’×J(ü‡¶Bìjœymlf½k~žÆ1@lfmåëG>lhï7ãä£^ÑPþc$¦dz0à|\yzqäB—x?2Õ-p2"`4"FÌcM¶åsí -CeÑÏFßT1	5Œ±I(”¢lM¬s…}H¯dZÃ(TÇ,GWpc`:É&•üLæoõ–$J¬òçû‹oàK	•AOÖÍ	c¯ NÈÄBª
+)ÔŠ#¸aãþ=~Uãù;¼l_–lm 6o W<ÛM…ÆÕruƒÎª ¯%÷ÌG§d¦VhæÄ9k—×+U_šoÎ½Hk** 4îwëavm* îO0 z2·áL0c_Ë1å*@êûn‹; íN–Q¬@èœjÁTñÅ,`[½"]±›Á¥ôçÉF
+¶[zBåÈ  1ù¢2r¨¿RâŠçkÛc™$,©B~`Hgùwven<fáw|5§Î! Q>â&vàíg±7d¸u \_ã@äy$• EQº((*pÂí°Œ2ÿÒãsbÜB€gìôðx!éÝP"Kéî:jw;0×$Ø›un±Lu„ ,g"@I4&÷ÑÚ*€
+HyRVJI>Râ…¨/3Ár)b}Á­þxu
+æ*Hq‚xa Ñ0tÀ´$ãÁ£uwõÝ=b˜y“a	™ž ÃëúGÁo6JJñ¨•ÑËIU¦A{'þWçQ0·p+,Y-2DÇl"à›©tFší9rbø¢ˆ%"®Tt¼+Þö{qe fýpÈãmpzù¯£ä%ZkJúXÒäeÒ<®zAZ¥9¥,cÌ2»aæÿXIí€§&}ÂåLêïñ
+.nyÁ{q_¬aAo[þ7u·G!(ôÔ  ¶}ùŸ±ÐhX®7ER‘ªåUamÑÏîã¡QE?Aah	 šÇzeÿlsáKnýB& 1iL•kÃ¶ÃÒ7T„MÔ0)gÆ{´uàxÉf/œ«t*]ê(y$_ÒÁÜõB
+G4„TµcÈhü/Ãè^dt]‰kOa ô9t1÷3Nj‡y*IyÏ	fàY6
+3žL;oW^Ïn·²…¥YE¥ô `’gWýgOcßÅãu€6¦2Hnt!–;ZcAÌÍ3Ö‘Ù7”+œ\?ŠÚ÷ÈSTìV§Ò«õià'&Hj.FaåZñ¹UgìÛ"ªhç°Õ|ç?M0Âa/4$muª	®7j=^³ü˜Nk½+	šewGBìÃÔuèàéBfNsw­Îý´	ˆX@pG‹¨½Pc#nðƒnA}hx+A™™[Ãeª
+pZ[Ï¯å	é—"
+zË×ërDõ='a¸LmETŸy–OÇJä­¶#ýDd/AÍúa@lruãÌí+<ð~ge¨HàeLÐhtyÁ"Imê§ê& F¦Æ#Ü'2$ífë¹v`syDøŸhgjô%~È(µ¤H)Ž4
+0.àÎ 56M:™Äßë&H•YÅÏö+ËÈ–'†ß<œO!=•‰Å]USégrbD|x4ù«ãü4}p«-øJ$0l˜a,s¶+¥ª¤æGTcWOé9MIkLìÓ¥ªjq×o.WŠ	=ßŒ#H<dPUEHcÕ'R@èZUa ž`ätæ_hÆ·4gLn…Õt6ÝrCZ%$¥X1Õi< å§)ç,QÄõsaëj	7§OíÊ_J ,¶t%K€KyIºdU~¥A_¦V+¦ç6HqPe<C0ÎóîêôhÅjjzk_N`"uÄd%–k/a|ÁuïZ@˜1W@‰ûM2;IP‰\XaZaXuî+§Öæ\¹‡ ÏÙéäpò/2¤AL5†_üpÄ/nv!î	±6kÔ ie0YN$8$’dmï³ô}AuAë§¸’_^Å‰Ó@\ˆg€ü2…ûÅ	SüRPýÄTƒ41ƒQ²bé1¡IÅÿîî-o¯zÃ0÷&ÃšO3,QGõ~¯†^lÔ¥áQo£Ö’©LƒâLü«Ï¯a~ñXºJ,l	3˜¼¸%Ã2·Sd=ƒ3 …¡5ëL\/+mqw=þæcÞÏûo$~X¤uó}oB8J)2!7ð1'ã4qlô@—ËsOhÆwx nÃI|“lÅÛlLûÄ‘ÕÜ)ð<Tqþà¾1šÁˆÏ·œÎïnŽJ©eA1l>îû/b¤À¡\dª9¥stsêªÂÕá¯]GBc	n‹ ÇQ5ŒüËþØïÊ•»7l "Ú¹*ÞÇ~¬n)ƒ0Û¬bV·$w(1<n­É18F{xVè~#è3Ó}¿%Ç±è¥®m
+¥+÷‘ÓøK%ð·èë»¦>ÂAéRè!æo6Èj\–GÇí¤'mbg,èvZ½?;oOod;'Iî³0“{˜BE&yï?îoE¯‹F£ mDf Ôè.&w5f	ƒ'YH§­#v"E8©ç·ïÑ·ô¡ýz%I…wz{NdTL‹%¡p‘PÑ¿EDÙOi£¹
+njI4Ax]ìkÚ+ü@îÜj-gù}ýcju14ZênYÇ¨ëUåÚ¤Ýæ¯Hûm30°„:hQ²GN]éB˜‚éZ°N™»‚ËU5¤2ô$—_C$Wã.bt4åµ¡t-zzl8âp™·š­~s!£=/ÍkjcxÉÐGR£aC)u0`êvJ]á<ìËTµ@J™€Øêu1L6úÑ~ul %F48_tIQM$ÂrÌ&àçö¹óPÆý N»šE*h¡wI%]aÜ ndšW}3	?–‰*£¿èv·¡dTM7{=,Ž(Â{oS*¬(gR(&öaÎ‹øòmqwå|®ö¡wSð¶HBõ8‚>LwL6OQ	Ü"'2ªB<Ó_b’ÖY£JtÖ÷¦ß]-Erza?<Fuhæ è ðoª4E$X´& m<pÈèÿ„4A~-Ï°Á#kêmêè%zK±3#xm	ËLSÍ¡‰j6™vÄ6oFÞÓ”çÔaH*QEéJ +PÆâAtÉÎ¢ýj
+?|®$Smneª x!;g]Ñ-(Ñ‚ÝØÞ»8@éÝK#%ÒvRYQë^´ˆ	`üc$ !dŠ$v aVè°#)Ã¾
+TÛÌWK©É8sNŸ“QÉ¨ÅoeJ p%·øé¸}\ìSFc}•½@0Ó@b´ŒÈ,u
+b&PÛÞ*:é¡…p)dý õcËäA™Ï!à%w 2sx%ãü+©e&6pa¶£$áaQsŠ'ýÕ÷^Wf$å‚eîm£4gx£î}^%<ÙikÂ¢WG-$v1¨yW­TÂÿà>³dô@Ùgqh)a‹„fo¤Ék¦íÁ‹Â($Ôš´_CÒàÎ{ÍMÅµ›öÕgü¡Eûf²np´Plg-oèbKÖ ·hf9é¥/”f—±~põ‡›y$ù'¶Øñö"7ª¸wäxù«àmdc}c±ƒ½oxýFÕ„§rFÂxmÿ†~CI‰b8]\sJC¨ñ×UëG>v:…IéAâ$k=û¶ýq‡/?ämh˜ÀÅ¥2u§r+r]r$i7PH%gxfP`h”_b43œ~q­ð­pb®ùKcõ
++]^R_ÎC#pKáy‘UVÍ?#ÀµÐC^Ío¨&]Üða¼e/j-K{fè>Àîéôé¼]jzv4M¶FH]0g¹va.s†‚K`%þwý_ 
+æ@Z¨M@)PMHÌïiÌ325_ZFDÞPªqQî+kß!oysøtRjª”÷ÊŒè ¨2kBr$1(~TŠ¡µÎÃrÜP“hˆP<X96W¨"“(örNòitìô(biÝÅ3/Qöë‹5	ÅÜÿ;6Ø&!AtE*¢qEŒ­;Š¹Eî%aÝ"venc%€(jAeh4l#.>%H&\Äè'Ï{O,ðKÔüQÄá"m•ZyöeNY?)öØÖã0¼''ÒåàpÅU*í4¸À}ÿ—©+Q3!1Rú6beç*Ÿj˜ j>¬zpöì’¡Š{eˆMAÍåe,aœ:ÙPs ƒVYcf(bhî»£{ ÖÈ90¬êgz,1"Ug~?Ðì3oCL(ŠšxörK<y„v^"UE5NäTMàaùÁRâ.È¹íýf¬—áxÐ£yé¹æØl~6ª“¸$^etŒ]/¶ä4)$í:³Gh¥ã]>=^(àþÂvpèóÍaTA!ßPi«K±iETbyHÑ•ÿu£ÎRi“uP[PQp-~t2`VáôSXçœ)CtM“­‰DÊ-‡)/*‹„U¢ßF&@E±¯å£ë½Eztny\L®Ù|É%f@øjÊ84Þ»ð~q¢5!éé­up-B‰÷5:C},¼³%â?i)B¸ÆH#Z&#Ù$èí$J$…Ñ`@Q]m!7¸®ŸSÐ Ä?'£ƒÁFüÊ0G}oqÑ`½X&´$ÆÛª@}€c  Ai95Xêm¡7¾®ðuófN¾àVLóAz-A1p%žÀJ®%OpJGå^1TÊ| `Ã-FMC$ö¥g;|<®¬Kë<O\ÝGH<Ì±MTr6IyµRW‰M¬®H¤jO™;ò/z¥ùe}fáh¥¸ ÎbøZcÜÝj”6×XÉäÔRiup~/%õ^÷ÚÙË(?é­Dùb	ßMeå¤À€^_ÖÆŸ¬0,Ñå¨swkW/í)cü`õ»7öMjWx1sìOopwÈQÓsáÙÈŽøÏk*+zßóð­²5#b¤•$'pûLü‚#RÅp:(bÏqç*ºv|nuNÄ!š³FHDÖ{Q/Úk#JoÌÞu0!jdkW=pVô°ä&HÓf!€k\1ÝèT18+¾åle0}å[¡ú
